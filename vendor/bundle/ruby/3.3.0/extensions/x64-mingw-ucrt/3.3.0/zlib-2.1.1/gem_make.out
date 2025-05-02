@@ -1,0 +1,50 @@
+current directory: C:/Users/dohye/Desktop/GitHub/dohyeondol1.github.io/vendor/bundle/ruby/3.3.0/gems/zlib-2.1.1/ext/zlib
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+checking for deflateReset() in -lz... yes
+checking for zlib.h... yes
+checking for crc32_combine() in zlib.h... yes
+checking for adler32_combine() in zlib.h... yes
+checking for z_crc_t in zlib.h... yes
+creating Makefile
+
+current directory: C:/Users/dohye/Desktop/GitHub/dohyeondol1.github.io/vendor/bundle/ruby/3.3.0/gems/zlib-2.1.1/ext/zlib
+make DESTDIR\= sitearchdir\=./.gem.20250502-6140-a6ff85 sitelibdir\=./.gem.20250502-6140-a6ff85 clean
+
+current directory: C:/Users/dohye/Desktop/GitHub/dohyeondol1.github.io/vendor/bundle/ruby/3.3.0/gems/zlib-2.1.1/ext/zlib
+make DESTDIR\= sitearchdir\=./.gem.20250502-6140-a6ff85 sitelibdir\=./.gem.20250502-6140-a6ff85
+generating zlib-x64-mingw-ucrt.def
+compiling zlib.c
+zlib.c: In function 'zstream_discard_input':
+zlib.c:897:13: warning: 'rb_gc_force_recycle' is deprecated: this is now a no-op function [-Wdeprecated-declarations]
+  897 |             rb_gc_force_recycle(z->input);
+      |             ^~~~~~~~~~~~~~~~~~~
+In file included from C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/core/rarray.h:32,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/core.h:23,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby/ruby.h:29,
+                 from C:/Ruby33-x64/include/ruby-3.3.0/ruby.h:38,
+                 from zlib.c:9:
+C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/gc.h:226:6: note: declared here
+  226 | void rb_gc_force_recycle(VALUE obj);
+      |      ^~~~~~~~~~~~~~~~~~~
+zlib.c: In function 'zstream_run0':
+zlib.c:1140:9: warning: 'rb_gc_force_recycle' is deprecated: this is now a no-op function [-Wdeprecated-declarations]
+ 1140 |         rb_gc_force_recycle(old_input);
+      |         ^~~~~~~~~~~~~~~~~~~
+C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/gc.h:226:6: note: declared here
+  226 | void rb_gc_force_recycle(VALUE obj);
+      |      ^~~~~~~~~~~~~~~~~~~
+zlib.c: In function 'gzfile_readpartial':
+zlib.c:2910:9: warning: 'rb_gc_force_recycle' is deprecated: this is now a no-op function [-Wdeprecated-declarations]
+ 2910 |         rb_gc_force_recycle(dst);
+      |         ^~~~~~~~~~~~~~~~~~~
+C:/Ruby33-x64/include/ruby-3.3.0/ruby/internal/gc.h:226:6: note: declared here
+  226 | void rb_gc_force_recycle(VALUE obj);
+      |      ^~~~~~~~~~~~~~~~~~~
+linking shared-object zlib.so
+
+current directory: C:/Users/dohye/Desktop/GitHub/dohyeondol1.github.io/vendor/bundle/ruby/3.3.0/gems/zlib-2.1.1/ext/zlib
+make DESTDIR\= sitearchdir\=./.gem.20250502-6140-a6ff85 sitelibdir\=./.gem.20250502-6140-a6ff85 install
+/usr/bin/install -c -m 0755 zlib.so ./.gem.20250502-6140-a6ff85
+
+current directory: C:/Users/dohye/Desktop/GitHub/dohyeondol1.github.io/vendor/bundle/ruby/3.3.0/gems/zlib-2.1.1/ext/zlib
+make DESTDIR\= sitearchdir\=./.gem.20250502-6140-a6ff85 sitelibdir\=./.gem.20250502-6140-a6ff85 clean
