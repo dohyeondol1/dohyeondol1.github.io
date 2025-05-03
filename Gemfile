@@ -1,10 +1,5 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+gem 'jekyll-paginate'
 
-gem "jekyll"
-
-group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-feed"
-  gem "jekyll-seo-tag"
-  gem "jekyll-linkpreview"
-end
+gem "jekyll", "~> 4.0"
+gem "rake"

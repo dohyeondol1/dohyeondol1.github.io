@@ -1,0 +1,25 @@
+---
+layout: page
+title: "About"
+description: "To learn to succeed, you must learn to fail"
+header-img: "img/about-bg.png"
+multilingual: true
+---
+
+{% include multilingual-sel.html %}
+
+<!-- Korean Version -->
+<div class="kr post-container">
+  {% capture about_kr %}{% include about/kr.md %}{% endcapture %}
+  {{ about_kr | markdownify }}
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+  {% capture about_en %}{% include about/en.md %}{% endcapture %}
+  {{ about_en | markdownify }}
+</div>
+
+<!-- Utterances comments -->
+<script src="https://utteranc.es/client.js" repo="dohyeondol1/utterances" issue-term="pathname" theme="github-light"
+  crossorigin="anonymous" async></script>
