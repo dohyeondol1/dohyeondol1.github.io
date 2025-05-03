@@ -76,7 +76,7 @@ ga_domain: byte348.github.io/
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "하고싶은건 많고 시간은 부족해"
-sidebar-avatar: /img/about.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/gromit.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
