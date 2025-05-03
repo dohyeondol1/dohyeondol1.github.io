@@ -1,5 +1,5 @@
 # Site settings
-title: dohyeondol1
+title: byte348
 SEOTitle: dohyeondol1 | 도현석
 header-img: img/bosudong.jpg
 email: dohyeondol@gmail.com
@@ -71,7 +71,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-178543756-1" # Format: UA-xxxxxx-xx
-ga_domain: dohyeondol1.github.io/
+ga_domain: byte348.github.io/
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
