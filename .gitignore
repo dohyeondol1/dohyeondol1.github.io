@@ -1,10 +1,16 @@
-*.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
-Gemfile.lock
-
+_site/
+.jekyll-cache/
 .DS_Store
+*/.DS_Store
+*/*/.DS_Store
+*.gem
+*.log
+node_modules/
+*.lock
+*.iml
+.vscode/
+*.sh
 
-/vendor/bundle/
+_posts/_draft
+_posts/_archive
+_archive
