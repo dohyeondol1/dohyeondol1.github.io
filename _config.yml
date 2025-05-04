@@ -71,7 +71,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-178543756-1" # Format: UA-xxxxxx-xx
-ga_domain: byte348.github.io/
+ga_domain: dohyeondol1.github.io/
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
