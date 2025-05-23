@@ -2,7 +2,7 @@
 layout: post
 title: "우선순위 큐와 그 응용"
 subtitle: "Priority queue"
-date: 2025-05-24 18:00:00
+date: 2025-05-24 06:00:00
 author: "dohyeondol1"
 header-img: "img/in_post/bus.png"
 catalog: true
