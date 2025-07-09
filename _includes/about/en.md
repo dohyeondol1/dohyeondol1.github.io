@@ -3,4 +3,4 @@
 
 I’m a sophomore studying software development at Pukyong National University.  
 
-ps blog : https://dohyeondol1.github.io/byte348/
+ps blog : <a src="https://dohyeondol1.github.io/byte348/">byte348</a>

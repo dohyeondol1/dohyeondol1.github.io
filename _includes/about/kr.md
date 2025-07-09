@@ -3,4 +3,4 @@
 
 부경대학교에서 개발을 공부하고 있는 2학년입니다.  
 
-ps blog : https://dohyeondol1.github.io/byte348/
+ps blog : <a src="https://dohyeondol1.github.io/byte348/">byte348</a>
